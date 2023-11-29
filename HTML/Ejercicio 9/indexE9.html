@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla y Formulario con Bootstrap</title>
+  <!-- Agregar la referencia a Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>EJERCICIO 9</h1>
+    <h2>Productos disponibles</h2>
+    
+    <!-- Tabla de productos -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Producto 1</td>
+          <td>$10.00</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Producto 2</td>
+          <td>$15.00</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Producto 3</td>
+          <td>$20.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Formulario para seleccionar productos -->
+    <form>
+      <div class="form-group">
+        <label for="producto">Seleccione un producto:</label>
+        <select class="form-control" id="producto" name="producto">
+          <option value="1">Producto 1 - $10.00</option>
+          <option value="2">Producto 2 - $15.00</option>
+          <option value="3">Producto 3 - $20.00</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" class="form-control" id="cantidad" name="cantidad" min="1" value="1">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Agregar al carrito</button>
+    </form>
+  </div><br><br>
+  <footer id="fooFinal">
+    <p>Creado por...@Maria Guadalupe Medina </p>
+</footer>  
+</body>
+
+  <!-- Agregar la referencia a Bootstrap JS y jQuery (necesario para funcionalidades de Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

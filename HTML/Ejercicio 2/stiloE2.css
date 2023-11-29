@@ -1,0 +1,47 @@
+body{
+    padding: 50px;
+    text-align: center;
+}
+
+h1,h2{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(53, 11, 83);
+}
+article{
+    color: rgb(111, 86, 127);
+}
+
+footer {
+    background-color: rgb(67, 4, 79);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+#hpr{
+    background-color: rgb(74, 49, 79);
+    text-align: right;
+  text-decoration: blanchedalmond;
+
+  }
+
+ 
+
+a:-webkit-any-link {
+    color: rgb(97, 96, 94);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

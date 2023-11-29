@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web ejercicio 4</title>
+    <link rel="stylesheet" href="stiloE4.css">
+</head>
+
+<body>
+    <header>
+        <p>EJERCICIO 4 HTML</p>
+    </header>
+    <form action="">
+        <section>
+            <p>DataList</p>
+            <fieldset>
+                <label for="InputLista">Lista de colores</label>
+                <input list="listaColores" name="inputLista">
+                <datalist id="ListaColores">
+                    <option value="Azul"></option>
+                    <option value="Rojo"></option>
+                    <option value="Amarillo"></option>
+                    <option value="Negro"></option>
+                    <option value="Blanco"></option>
+                </datalist>
+            </fieldset>
+        </section>
+        <section>
+            <p>URL input</p>
+            <fieldset>
+                <label for="URL">Lista URLs</label>
+                <input type="url" name="url" id="url"
+                placeholder="https://ejemplos_de_URLs.com"
+                pattern="https://.*" size="30"
+                list="ListURL"
+                required>
+                <datalist id="dtListURL">
+                    <option value="https://www.google.com/search?sa=X&sca_esv=586169444&sxsrf=AM9HkKnx5r_cxEAzYAfkSOIFbZVC3uKKxA:1701232628239&q=Marlene+Ahrens&oi=ddle&ct=253316961&hl=es-419&si=ALGXSlYh1-GEPndq7qMo--O-TPixQtNN4JMroSxgItz5kq0stJWIOHCKMuZhKiaGJu8X28suO59UfMbOjGQAhjZ2HUaNGaBeHilUrH7x7grHG5SWdumD22UWQ5B8lPQbSHNa6jQcRPiqlRoqm6i7FkBLGrEaFflkMasFGpKbWr6o4XzjVr7FE-Y%3D&ved=0ahUKEwjZ9O-zseiCAxVejokEHWmdDAwQPQgC&biw=1440&bih=791&dpr=1.5" label="google"></option>
+                    <option value="https://www.youtube.com/watch?v=is_iOZeHTfU&list=RDM9SdvvyNdm4&index=48&ab_channel=SadLife" label="Youtube"></option>
+                </datalist>
+            </fieldset>
+        </section>
+        <section>
+            <p>Range</p>
+            <fieldset>
+                <label for="range">Rangos</label>
+                <input type="range" list="listanums" step="1" name="rango" max="10" min="0" >
+                <datalist id="listanums">
+                    <option value="1">UNO</option>
+                    <option value="2">DOS</option>
+                    <option value="3">TRES</option>
+                    <option value="4">CUATRO</option>
+                    <option value="5">CINCO</option>
+                </datalist>
+            </fieldset>
+        </section>
+        <br>
+        <input type="submit" name="btn_enviar" value="ENVIAR">
+        <input type="reset" name="btn_limpiar" value="LIMPIAR">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+h1{
+    color: chocolate;
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+audio {
+    width: 1000px;
+    height: 50px;
+}

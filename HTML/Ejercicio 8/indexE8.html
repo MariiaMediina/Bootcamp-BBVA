@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web Ejercicio</title>
+</head>
+<body>
+    <h1>EJERCICIO 8</h1>
+    <form action="">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="Nombre"> Nombre </label>
+            <input type="text" id="nombre">
+            <br><br>
+            <label for="Edad">Edad</label>
+            <input type="text" id="edad">
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <legend>CULTURA GENERAL</legend>
+            <label for="capital">Capital de Noruega:</label>
+            <label><input type="checkbox" name="Copenhague" value="Copenhague">Copenhague</label>
+            <label><input type="checkbox" name="Helsinkin" value="Helsinkin">Helsinkin</label>
+            <label><input type="checkbox" name="Oslo" value="Oslo">Oslo</label>
+            <br>
+            <label for="FechaR">Fecha de la Revolución Francesa</label>
+            <label><input type="radio" name="1492" value="1492">1492</label>
+            <label><input type="radio" name="1789" value="1789">1789</label>
+            <label><input type="radio" name="1917" value="1917">1917</label>
+        </fieldset>
+        <br><br><br>
+        <input type="submit" id="enviar" value="ENVIAR">
+        <input type="reset" id="limpiar" value="LIMPIAR FORMULARIO">
+    </form>
+    <h1> EJEMPLO INPUT NUMBER HTML5</h1>
+    <u><b>EJEMPLO 1</b></u>
+    <br><br><br>
+    <label for="inputN">Introduce tu edad</label>
+    <input type="number" id="inpNum" required>
+    <input type="button" id="enviarEdad" value="Enviar">  
+    <br><br>
+    <u><b>EJEMPLO 2</b></u>
+    <br>
+    <label for="inputN">Introduce tu edad (min= 18 max=99, campo obligatorio)</label>
+    <input type="number" id="inpNumOb" required min="18" max="99" oninvalid="setCustomValidity('Introduce un número dentro del rango')"
+    oninput="setCustomValidity">
+    <input type="button" id="enviarEdadOb" value="Enviar">  
+    <footer id="fooFinal">
+        <p>Creado por...@Maria Guadalupe Medina </p>
+    </footer>  
+</body>
+</html>
